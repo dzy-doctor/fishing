@@ -50,28 +50,98 @@ body{
 
 .header{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     .header__inner{
+        margin: 0 135px 0 135px;
+
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
-       .header__logo{
-
-       } 
-       .header__nav{
-            
+        .header__nav{
+          ul{
+              display: flex;
+          }  
            .nav_link{
             width: 85px;
             height: 97px;
+            
             display: flex;
-            text-align: center;
-             
-            display: inline-block;
-           }
+            justify-content: center;
+            align-items: center;
+             :hover{
+                width: 85px;
+                height: 97px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f8f9fb;
+                color: #49cbcd;
+                border-bottom: 3px solid #49cbcd; ;
+                }
+            }
+                             
            .nav_link a{
-             
+            font-size: 15px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #484c55;
            }
        }
     }
+    .header__banner{
+        height:566px;
+
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        background-image: url(../img/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .banner__title{
+            padding-top: 155px;
+            margin-bottom: 34px;
+            font-size: 63px;
+            line-height: 24px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        .banner__text{
+            font-size: 23px;
+            line-height: 37px;
+            font-weight: 400;
+            color: #ffffff;
+            // margin-bottom: 50px;
+        }
+        .banner__slider{
+           
+            width: 96%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .banner__slider--left, .banner__slider--right{
+            background: none;
+        }
+
+        .banner__button{
+            width: 231px;
+            height: 69px;
+            border: 3px solid #ffffff;
+            border-radius: 5px;
+            background: none;
+
+            font-size: 26px;
+            line-height: 24px;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+        }
+    }
+        
 }
 
