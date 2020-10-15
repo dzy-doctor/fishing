@@ -111,36 +111,24 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-.header .header__inner .header__nav .nav_link {
-  width: 85px;
-  height: 97px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 .header .header__inner .header__nav .nav_link :hover {
-  width: 85px;
-  height: 97px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #f8f9fb;
   color: #49cbcd;
   border-bottom: 3px solid #49cbcd;
+  border-top: 3px solid white;
 }
 .header .header__inner .header__nav .nav_link a {
+  width: 85px;
+  height: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
@@ -199,5 +187,63 @@ body {
   line-height: 24px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/*Header========
+======================*/
+.services {
+  height: 517px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.services .services__item {
+  width: 247px;
+  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.services .services__item:first-child {
+  margin-left: 0px;
+}
+.services .services__title {
+  padding-top: 49px;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e525d;
+}
+.services .services__text {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #4e525d;
+}
+.services .services__button {
+  margin-top: 20px;
+  width: 97px;
+  height: 30px;
+  background-color: #49cbcd;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
   color: #ffffff;
 }
