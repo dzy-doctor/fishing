@@ -367,3 +367,65 @@ body {
     background-color: #49cbcd;
   }
 }
+/*Team=======
+====================*/
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.team .team__title {
+  padding-top: 96px;
+  font-size: 42px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e525d;
+}
+.team .team__inner {
+  width: 1118px;
+  margin: 140px 0 105px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.team .team__inner .team__item {
+  width: 247px;
+  text-align: center;
+}
+.team .team__inner .team__item .team__img {
+  outline: 1px solid red;
+  position: relative;
+}
+.team .team__inner .team__item .item__information {
+  margin-top: 70px;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e525d;
+}
+.team .team__inner .team__item .information_profession {
+  font-size: 14px;
+}
+.team .team__inner .team__item .item__text {
+  margin-top: 23px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #4e525d;
+}

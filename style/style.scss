@@ -73,6 +73,7 @@ body{
                 border-bottom: 3px solid #49cbcd; ;
                 border-top: 1px solid white;
                 }
+                
             }
                              
            .nav_link a{
@@ -91,6 +92,7 @@ body{
        }
     }
     .header__banner{
+        
         height:566px;
 
         display: flex;
@@ -305,3 +307,58 @@ body{
 
 }
 
+/*Team=======
+====================*/
+.team{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    .team__title{
+        padding-top: 96px;
+        font-size: 42px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #4e525d;
+    }
+    .team__inner{
+        width: 1118px;
+        margin: 140px 0 105px 0;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        .team__item{
+            width: 247px;
+            
+            text-align: center;
+            .team__img{
+                outline: 1px solid red;
+                position: relative;
+                
+
+                &:hover{
+                    
+                    // background:url(/img/team_2.png) no-repeat;
+                }
+            }
+            .item__information{
+                margin-top: 70px;
+                font-size: 22px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #4e525d;
+            }
+            .information_profession{
+                font-size: 14px;
+            }
+            .item__text{
+                margin-top: 23px;
+                font-size: 14px;
+                line-height: 26px;
+                font-weight: 400;
+                color: #4e525d;
+            }
+        }
+    }
+}
