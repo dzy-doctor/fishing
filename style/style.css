@@ -412,6 +412,9 @@ body {
   outline: 1px solid red;
   position: relative;
 }
+.team .team__inner .team__item .team__img:hover {
+  background: url(/img/team_2.png) no-repeat;
+}
 .team .team__inner .team__item .item__information {
   margin-top: 70px;
   font-size: 22px;
