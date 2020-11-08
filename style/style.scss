@@ -312,8 +312,7 @@ body{
 .team{    
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    
     align-items: center;
     .team__title{
         padding-top: 96px;
@@ -325,21 +324,24 @@ body{
     .team__inner{
         width: 1118px;
         margin: 140px 0 105px 0;
-        display: flex;
-        justify-content: center;
+
+        display: flex;        
         justify-content: space-between;
         .team__item{
             width: 247px;
-            
+            outline: 1px solid red;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center;
             .team__img{
-                outline: 1px solid red;
+                width: 201px;
                 position: relative;
-                
+                outline: 1px solid red;                                
 
-                &:hover{
-                    
-                    background:url(/img/team_2.png) no-repeat;
+                &:hover{                                      
+                    background:url(../img/team_2.png) ;
                 }
             }
             .item__information{
@@ -358,6 +360,70 @@ body{
                 line-height: 26px;
                 font-weight: 400;
                 color: #4e525d;
+            }
+        }
+    }
+}
+/*Price-list=========
+=========================*/
+.price-list{
+    width: 100%;
+    height: 738px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f1f1f1;
+    .price-list__container{
+        width: 1173px;
+
+        display: flex;
+        justify-content: space-between;
+        
+        .price-list__item{
+            width: 370px;
+            text-align: center;
+                       
+            .price-list__title{
+                padding-top: 15px;
+                background-color: #485460;
+                height: 76px;
+                font-size: 26px;
+                line-height: 48px;
+                font-weight: 400;
+                color: #ffffff;
+            }
+            .price-list__subtitle{
+                height: 76px;
+                font-size: 20px;
+                line-height: 48px;
+                font-weight: 400;
+                color: #485460;   
+                background: #f8f9fb;          
+            }
+            .price-list__text{
+                background-color: #ffffff;
+                border-top: 1px solid #ecf0f1;
+                font-size: 14px;
+                line-height: 45px;
+                font-weight: 400;
+                color: #8c9299;
+            }
+            .price-list__btn{
+                height: 99px;
+                background-color: #f8f9fb;
+                padding-top: 29px;
+            }
+            .price-list__button{
+                font-size: 17px;
+                line-height: 45px;
+                font-weight: 600;
+                border-radius: 5px;
+                color: #ffffff;
+                width: 170px;
+                height: 40px;
+                background-color: #788492;
             }
         }
     }
