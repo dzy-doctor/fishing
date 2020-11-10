@@ -384,47 +384,123 @@ body{
         .price-list__item{
             width: 370px;
             text-align: center;
-                       
+             
             .price-list__title{
-                padding-top: 15px;
-                background-color: #485460;
                 height: 76px;
+                
+                padding-top: 15px;
+
+                background-color: #485460;
+                
                 font-size: 26px;
                 line-height: 48px;
                 font-weight: 400;
                 color: #ffffff;
+                &:hover{
+                background-color: #49cbcd;
+                } 
+             }
             }
             .price-list__subtitle{
                 height: 76px;
+
+                padding-top: 15px;
+
+                
                 font-size: 20px;
                 line-height: 48px;
                 font-weight: 400;
                 color: #485460;   
-                background: #f8f9fb;          
+
+                background: #f8f9fb; 
+                
+                        
             }
             .price-list__text{
                 background-color: #ffffff;
+               
                 border-top: 1px solid #ecf0f1;
+                
                 font-size: 14px;
                 line-height: 45px;
                 font-weight: 400;
                 color: #8c9299;
+
             }
             .price-list__btn{
                 height: 99px;
-                background-color: #f8f9fb;
+
                 padding-top: 29px;
+
+                background-color: #f8f9fb;
+               
             }
             .price-list__button{
+                width: 170px;
+                height: 40px;
+
                 font-size: 17px;
                 line-height: 45px;
                 font-weight: 600;
                 border-radius: 5px;
                 color: #ffffff;
-                width: 170px;
-                height: 40px;
+                
                 background-color: #788492;
+                &:hover{
+                background-color: #49cbcd;
             }
         }
     }
+}
+
+/*Comment====
+=======================*/
+.comment{
+    height: 469px;
+    padding-top: 147px;
+    
+    background-color: #ffffff;
+    text-align: center;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    .comment__title{
+        font-size: 42px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #4e525d;
+    }
+    .comment__continer{
+        width: 1132px;
+        margin-top: 37px;
+                
+        display: flex;
+
+        // position: relative;
+       .comment__button{
+        //    position: absolute;
+       }
+       .comment__button--right{
+            // left:99%;
+       }
+       .comment__blog{
+           margin: 0 auto;
+           width: 643px;
+           height: 139px;
+          .comment__text{
+            font-size: 19px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #4e525d;
+          } 
+          span{
+            font-size: 21px;
+            color: #9a8faf;
+          }
+       }
+       
+    }
+
 }

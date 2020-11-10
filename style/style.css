@@ -469,23 +469,27 @@ body {
   text-align: center;
 }
 .price-list .price-list__container .price-list__item .price-list__title {
+  height: 76px;
   padding-top: 15px;
   background-color: #485460;
-  height: 76px;
   font-size: 26px;
   line-height: 48px;
   font-weight: 400;
   color: #ffffff;
 }
-.price-list .price-list__container .price-list__item .price-list__subtitle {
+.price-list .price-list__container .price-list__item .price-list__title:hover {
+  background-color: #49cbcd;
+}
+.price-list .price-list__container .price-list__subtitle {
   height: 76px;
+  padding-top: 15px;
   font-size: 20px;
   line-height: 48px;
   font-weight: 400;
   color: #485460;
   background: #f8f9fb;
 }
-.price-list .price-list__container .price-list__item .price-list__text {
+.price-list .price-list__container .price-list__text {
   background-color: #ffffff;
   border-top: 1px solid #ecf0f1;
   font-size: 14px;
@@ -493,18 +497,68 @@ body {
   font-weight: 400;
   color: #8c9299;
 }
-.price-list .price-list__container .price-list__item .price-list__btn {
+.price-list .price-list__container .price-list__btn {
   height: 99px;
-  background-color: #f8f9fb;
   padding-top: 29px;
+  background-color: #f8f9fb;
 }
-.price-list .price-list__container .price-list__item .price-list__button {
+.price-list .price-list__container .price-list__button {
+  width: 170px;
+  height: 40px;
   font-size: 17px;
   line-height: 45px;
   font-weight: 600;
   border-radius: 5px;
   color: #ffffff;
-  width: 170px;
-  height: 40px;
   background-color: #788492;
+}
+.price-list .price-list__container .price-list__button:hover {
+  background-color: #49cbcd;
+}
+
+/*Comment====
+=======================*/
+.comment {
+  height: 469px;
+  padding-top: 147px;
+  background-color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.comment .comment__title {
+  font-size: 42px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e525d;
+}
+.comment .comment__continer {
+  width: 1132px;
+  margin-top: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.comment .comment__continer .comment__blog {
+  margin: 0 auto;
+  width: 643px;
+  height: 139px;
+}
+.comment .comment__continer .comment__blog .comment__text {
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #4e525d;
+}
+.comment .comment__continer .comment__blog span {
+  font-size: 21px;
+  color: #9a8faf;
 }
