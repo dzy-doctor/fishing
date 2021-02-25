@@ -400,7 +400,6 @@ body {
 }
 .team .team__inner .team__item {
   width: 247px;
-  outline: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,10 +415,6 @@ body {
 .team .team__inner .team__item .team__img {
   width: 201px;
   position: relative;
-  outline: 1px solid red;
-}
-.team .team__inner .team__item .team__img:hover {
-  background: url(../img/team_2.png);
 }
 .team .team__inner .team__item .item__information {
   margin-top: 70px;

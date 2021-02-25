@@ -329,7 +329,7 @@ body{
         justify-content: space-between;
         .team__item{
             width: 247px;
-            outline: 1px solid red;
+            
 
             display: flex;
             flex-direction: column;
@@ -337,12 +337,9 @@ body{
             text-align: center;
             .team__img{
                 width: 201px;
-                position: relative;
-                outline: 1px solid red;                                
+                position: relative;                                              
 
-                &:hover{                                      
-                    background:url(../img/team_2.png) ;
-                }
+               
             }
             .item__information{
                 margin-top: 70px;
